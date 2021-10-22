@@ -6,5 +6,8 @@
 
 print("\nZadanie 1")
 print("Lista zakupow:")
-
+#product list
+lista= {'Piekarnia':['Chleb', 'Pączek', 'Bułki'],
+'Warzywniak':['Marchew', 'Seler', 'Rukola']
+}
 
