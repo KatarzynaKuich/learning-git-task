@@ -11,3 +11,8 @@ lista= {'Piekarnia':['Chleb', 'Pączek', 'Bułki'],
 'Warzywniak':['Marchew', 'Seler', 'Rukola']
 }
 
+#loop add 
+
+for x in lista:
+  print("Idę do ",x ,"kupuję tu następujące rzeczy:",lista[x])
+  
