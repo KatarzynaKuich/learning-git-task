@@ -7,12 +7,17 @@
 print("\nZadanie 1")
 print("Lista zakupow:")
 #product list
-lista= {'Piekarnia':['Chleb', 'Pączek', 'Bułki'],
-'Warzywniak':['Marchew', 'Seler', 'Rukola']
+lista= {'piekarnia':['chleb', 'Pączek', 'bułki'],
+'warzywniak':['Marchew', 'seler', 'rukola']
 }
 
 #loop add 
 
-for x in lista:
-  print("Idę do ",x ,"kupuję tu następujące rzeczy:",lista[x])
-  
+count=0
+for x,y  in lista.items():
+  for z in y:
+      for i in range(0,3):
+        y[i]=y[i].replace(y[i],y[i].capitalize())
+  print("Idę do ",x.capitalize(),"kupuję tu następujące rzeczy:",y)
+  count=len(y)+count
+print("W sumie kupuję ",count," produktów.")
