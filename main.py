@@ -21,3 +21,4 @@ for x,y  in lista.items():
   print("Idę do ",x.capitalize(),"kupuję tu następujące rzeczy:",y)
   count=len(y)+count
 print("W sumie kupuję ",count," produktów.")
+print("commit1")
